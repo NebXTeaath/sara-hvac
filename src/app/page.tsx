@@ -5,7 +5,6 @@ import {
   Phone,
   Mail,
   MapPin,
-  Wind,
   Thermometer,
   Shield,
   Users,
@@ -16,6 +15,7 @@ import {
   Clock,
   Award,
   Fan,
+  AirVent,
 } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
@@ -123,7 +123,7 @@ export default function HomePage() {
               <Card className="border-2 hover:border-blue-200 transition-colors">
                 <CardHeader>
                   <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
-                    <Wind className="w-6 h-6 text-blue-600" />
+                    <AirVent className="w-6 h-6 text-blue-600" />
                   </div>
                   <CardTitle>Air Conditioning Systems</CardTitle>
                   <CardDescription>
@@ -446,11 +446,11 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="space-y-4">
               <div className="flex items-center space-x-2">
-                <Wind className="h-8 w-8 text-blue-400" />
+                <Fan className="h-8 w-8 text-blue-400" />
                 <span className="text-2xl font-bold">Sara HVAC</span>
               </div>
               <p className="text-gray-400">
-                Mumbai's trusted HVAC partner for 17+ years. Total comfort, safety, and efficiency.
+                {`Mumbai's trusted HVAC partner for 17+ years. Total comfort, safety, and efficiency.`}
               </p>
             </div>
             <div>
