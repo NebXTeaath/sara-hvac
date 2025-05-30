@@ -15,7 +15,6 @@ import {
   Wrench,
   Clock,
   Award,
-  AirVent,
   Fan,
 } from "lucide-react"
 import Image from "next/image"
